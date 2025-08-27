@@ -12,6 +12,7 @@ source $OMARCHY_INSTALL/preflight/trap-errors.sh
 source $OMARCHY_INSTALL/preflight/guard.sh
 source $OMARCHY_INSTALL/preflight/chroot.sh
 source $OMARCHY_INSTALL/preflight/repositories.sh
+source $OMARCHY_INSTALL/config/pacman-optimizations.sh
 source $OMARCHY_INSTALL/preflight/migrations.sh
 source $OMARCHY_INSTALL/preflight/first-run-mode.sh
 
@@ -30,6 +31,7 @@ source $OMARCHY_INSTALL/config/branding.sh
 source $OMARCHY_INSTALL/config/git.sh
 source $OMARCHY_INSTALL/config/gpg.sh
 source $OMARCHY_INSTALL/config/timezones.sh
+source $OMARCHY_INSTALL/config/auto-timezone.sh
 source $OMARCHY_INSTALL/config/increase-sudo-tries.sh
 source $OMARCHY_INSTALL/config/increase-lockout-limit.sh
 source $OMARCHY_INSTALL/config/ssh-flakiness.sh
